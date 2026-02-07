@@ -105,14 +105,7 @@ nav a:hover::after {
     margin-top: 15px;
     font-size: 18px;
 }
-.contact{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    wieght: bold;
-    font-size: 22px;
+
 /* CONTAINER */
 .container {
     width: 100%;
@@ -151,26 +144,6 @@ nav a:hover::after {
 
 .card:hover {
     transform: translateY(-8px);
-}
-.card-container {
-  width: 300px;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.card-container img {
-  width: 100%;
-  display: block;
-}
-
-.card {
-  padding: 15px;
-  background: #ffffff;
-}
-.card {
-  display: flex;
-  flex-direction: row;
 }
 
 /* GRID */
@@ -264,8 +237,4 @@ footer {
     .home-img {
         width: 100%;
     }
-
 }
-
-
-
