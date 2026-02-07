@@ -161,6 +161,10 @@ nav a:hover::after {
   padding: 15px;
   background: #ffffff;
 }
+.card {
+  display: flex;
+  flex-direction: column;
+}
 
 /* GRID */
 .grid {
@@ -255,3 +259,4 @@ footer {
     }
 
 }
+
