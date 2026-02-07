@@ -141,6 +141,11 @@ nav a:hover::after {
     box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
     transition: .3s;
 }
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 
 .card:hover {
     transform: translateY(-8px);
@@ -238,3 +243,4 @@ footer {
         width: 100%;
     }
 }
+
