@@ -134,7 +134,7 @@ nav a:hover::after {
 }
 /* CARDS */
 .card {
-    background: rgb(151, 210, 214);
+    background: rgb(169, 245, 250);
     padding: 25px;
     border-radius: 12px;
     margin: 15px 0;
@@ -235,9 +235,6 @@ footer {
     }
 
     .home-img {
-        width: 80%;
-        display:block;
-        height:auto;
+        width: 100%;
     }
 }
-
