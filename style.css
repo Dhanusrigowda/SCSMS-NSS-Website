@@ -152,7 +152,6 @@ nav a:hover::after {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
 }
-
 /* GALLERY */
 .gallery {
     width: 100%;
@@ -168,6 +167,7 @@ nav a:hover::after {
     border-radius: 12px;
     transition: .3s;
     padding: 10px 30px;
+    flex-wrap: wrap;
 }
 
 #home img {
@@ -238,3 +238,17 @@ footer {
         width: 100%;
     }
 }
+@media (max-width:950px) {
+    #home{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .container{
+        flex-wrap: wrap;
+    }
+    .container2{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
