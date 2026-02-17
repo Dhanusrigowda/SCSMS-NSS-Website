@@ -220,11 +220,17 @@ footer {
         overflow-x: hidden;   /* Prevent right-side space */
     }
 
-    .navbar {
+    nav {
+        display:flex;
         flex-direction: row;
         align-items: center;
         gap: 10px;
         text-align: center;
+    }
+    nav a{
+        text-decoration:none;
+        font-size:16px;
+        padding:10px;
     }
 
     section {
@@ -293,5 +299,6 @@ footer {
         gap: 20px;
     }
 }
+
 
 
