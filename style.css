@@ -28,7 +28,9 @@ h1,
 h2 {
     text-align: center;
 }
-
+.menu-toggle {
+        display: block;
+    }
 /* Images */
 img {
     max-width: 100%;
@@ -263,11 +265,14 @@ footer {
     h2 {
         font-size: 22px;
     }
-
+.menu-toggle {
+        display: block;
+    }
     body {
         overflow-x: hidden;
     }
 }
+
 
 
 
