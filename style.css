@@ -211,11 +211,20 @@ footer {
     padding: 15px;
     margin-top: 40px;
 }
-
+/* ===============================
+   MOBILE DEVICES (up to 768px)
+================================ */
 @media (max-width: 768px) {
 
+    body {
+        overflow-x: hidden;   /* Prevent right-side space */
+    }
+
     .navbar {
-        flex-direction: row;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
     }
 
     section {
@@ -223,32 +232,61 @@ footer {
     }
 
     h1 {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
     }
 
     .grid {
-        grid-template-columns: 1fr;
+        display: grid;
+        grid-template-columns: 1fr;  /* Single column */
+        gap: 20px;
     }
 
     .home-img {
         width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .container,
+    .container2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
     }
 }
-@media (max-width:950px) {
-    #home{
+
+
+/* ===============================
+   TABLET DEVICES (up to 950px)
+================================ */
+@media (max-width: 950px) {
+
+    #home {
         flex-wrap: wrap;
+        justify-content: center;
         gap: 30px;
+        text-align: center;
     }
-    .container{
+
+    .container {
         flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
     }
-    .container2{
+
+    .container2 {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        gap: 20px;
     }
 }
 
