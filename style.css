@@ -221,7 +221,7 @@ footer {
     }
 
     .navbar {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         gap: 10px;
         text-align: center;
@@ -233,14 +233,17 @@ footer {
 
     h1 {
         font-size: 22px;
+        font-weight:bold;
     }
 
     h2 {
         font-size: 18px;
+        font-weight:bold;
     }
 
     p {
         font-size: 14px;
+        font-weight:bold;
     }
 
     .grid {
@@ -250,6 +253,7 @@ footer {
     }
 
     .home-img {
+        flex-direction:row;
         width: 100%;
         max-width: 100%;
         height: auto;
@@ -289,4 +293,5 @@ footer {
         gap: 20px;
     }
 }
+
 
